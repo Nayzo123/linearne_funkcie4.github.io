@@ -1,0 +1,36 @@
+#againButton {
+    visibility: hidden;
+}
+
+body {
+     font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body.success  {
+    background-color: green;
+    #okButton{
+        visibility: hidden;
+    }
+    #againButton {
+        visibility: visible;
+    }
+}
+
+body.error h1,
+body.success h1 {
+    color: rgb(201, 198, 198);
+}
+
+body.error {
+    background-color: rgb(145, 30, 30);
+    #againButton {
+        visibility: visible;
+    }
+    #okButton{
+        visibility: hidden;
+    }
+}
+
+#restartButton {
+    margin-top: 50px;
+}

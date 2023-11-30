@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lineárne funckie</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Máš funkciu f(x) = <span id="functionForm"></span>. Odhadni Y, ak X=<span id="xValue"></span></h1>       
+    <input id="yValue" type="number"/>
+    <button id="okButton" type="submitButton" onclick="submit()">OK</button>            
+    <p id="counter"></p>
+    <button id ="againButton" type="button" onclick="reset()">Ďalšia funkcia</button> 
+    <div id = "successOrFail"></div>
+    <button id ="restartButton" type="button" onclick="resetAndRestart()">Chcem hrať znova</button>  
+    <script type="text/javascript" src="./scripts.js"></script>
+</body>
+</html>
